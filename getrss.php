@@ -13,6 +13,6 @@
       exit();
     }
     curl_close($ch);
-    file_put_contents('/var/www/html/rss/'.$x.'.rss', $output);
+    file_put_contents('/var/www/html/rss/'.$x, $output);
   }
 ?>
